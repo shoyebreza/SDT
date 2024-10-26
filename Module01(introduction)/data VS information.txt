@@ -1,0 +1,17 @@
+The difference between *data* and *information* lies in their meanings and how they are used:
+
+1. **Data**:
+   - Raw, unprocessed facts and figures.
+   - Does not carry any specific meaning until processed.
+   - Can be numbers, symbols, or even raw observations (e.g., temperature readings, scores, survey responses).
+
+2. **Information**:
+   - Processed, organized, or structured data.
+   - Carries meaning, context, and relevance.
+   - Helps to answer specific questions or solve problems (e.g., the average temperature over a month, trends in survey results).
+
+**Example**:
+   - Data: A list of numbers like `87, 90, 78, 85`.
+   - Information: The calculated *average* of these numbers, which may indicate the performance trend of a student over time. 
+
+In essence, *information* is what we get when *data* is analyzed and interpreted to be useful.

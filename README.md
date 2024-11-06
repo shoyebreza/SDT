@@ -1,4 +1,4 @@
-SDT Software development track 
+SDT - Software development track 
 * database
 * Python
 * Python OOP

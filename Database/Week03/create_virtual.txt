@@ -1,0 +1,11 @@
+create folder
+open cmd
+python -m venv environment_name
+cd environment_name
+cd Scripts
+cd activate
+
+----------------------
+
+pip install mysql-connector-python
+

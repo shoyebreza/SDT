@@ -46,3 +46,16 @@ shop.add_product(p2)
 shop.buy_product("Laptop", 2)
 shop.buy_product("Mouse", 12)
 shop.buy_product("Keyboard", 1)
+
+
+class Electronics(Product):
+    def __init__(self, name, price, quantity, warranty):
+        super().__init__(name, price, quantity)
+        self.warranty = warranty
+
+    def __str__(self):
+        return f"Electronics(name={self.name}, price={self.price}, quantity={self.quantity}, warranty={self.warranty})"
+
+# Example Usage
+e1 = Electronics("TV", 500, 3, "2 years")
+print(e1)

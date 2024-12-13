@@ -46,12 +46,16 @@ class Cricketer(Person):
 
 
 # Create instances
-sakib = Cricketer('sakib', 38, 68, 91, 'BD')
-mushi = Cricketer('mushi', 36, 65, 78, 'BD')
-tamim = Cricketer('tamim', 34, 70, 85, 'BD')
+
+sakib = Cricketer('Sakib', 38, 68, 91,'BD')
+musfiq = Cricketer('Rahim', 36, 68, 88,'BD')
+kamal = Cricketer('Kamal', 39, 68, 94,'BD')
+jack = Cricketer('Jack', 38, 68, 91,'BD')
+kalam = Cricketer('Kalam', 37, 68, 95,'BD')
+
 
 # Using max with overloaded operators
-players = [sakib, mushi, tamim]
+players = [sakib, musfiq, kamal, jack,kalam]
 oldest_player = max(players)  # Works because we overloaded '>' operator
 
 print(f"The oldest player is {oldest_player.name}, aged {oldest_player.age}.")

@@ -84,3 +84,9 @@ class Menu:
         for item in self.items:
             print(f"{item.name}\t {item.price}\t {item.quantity}")
     
+
+class FoodItem:
+    def __init__(self, name, price, quantity):
+        self.name = name
+        self.price = price
+        self.quantity = quantity

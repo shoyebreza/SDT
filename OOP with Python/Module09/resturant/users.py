@@ -40,7 +40,7 @@ class Resturant:
     def __init__(self,name):
         self.name =name
         self.employees = [] # ata database
-
+        self.menu = FoodItem
 
     def add_employee(self,employee):
         self.employees.append(employee)

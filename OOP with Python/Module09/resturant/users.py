@@ -34,6 +34,8 @@ class Admin(User):
     def view_employee(self,Resturant):
         Resturant.view_employee()
 
+    def add_new_item(self, restaurent, item):
+        restaurent.menu.add_menu_item(item)
             
 
 class Resturant:

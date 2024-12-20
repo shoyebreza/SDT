@@ -36,6 +36,9 @@ class Admin(User):
 
     def add_new_item(self, restaurent, item):
         restaurent.menu.add_menu_item(item)
+
+    def remove_item(self, restaurent, item):
+        restaurent.menu.remove_item(item)
             
 
 class Resturant:

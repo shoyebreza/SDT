@@ -30,3 +30,10 @@ class RideRequest:
     def __init__(self,rider,end_location)->None:
         self.rider = rider
         self.end_location = end_location
+
+
+    def find_request(self,ride_request):
+        if len(self.available_drivers)>0:
+            print("Looking for driver .....")
+            driver = self.available_drivers[0]
+            ride = Ride(ride_request.rider,)
